@@ -1,0 +1,607 @@
+body {
+  font-family: 'ArcadeClassic', sans-serif;
+  font-weight: 300;
+  background-color: ##7cd6e6;
+}
+
+nav {
+  position: fixed;
+}
+
+.navbar {
+  background-color: #F6F7FB;
+}
+
+.navbar .active {
+  font-weight: 600;
+}
+
+.navbar-hal {
+  background-color: #F6F7FB;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+.checkout-class {
+  font-size: 45px;
+  color: #05668D;
+}
+
+form .btn-login {
+  background-color: #ee9621;
+  color: white;
+}
+
+form .btn-login:hover {
+  background-color: #ff8b00;
+  color: white;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+}
+
+form .btn-register {
+  color: black;
+}
+
+form .btn-register:hover {
+  background-color: #ff8b00;
+  color: white;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+}
+
+.search-bar {
+  position: absolute;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.search-bar .btn-searching {
+  background-color: #ee9621;
+  color: white;
+}
+
+.search-bar .btn-searching:hover {
+  background-color: #ff8b00;
+  color: white;
+  -webkit-transition: ease-in 0.5s;
+  transition: ease-in 0.5s;
+}
+
+.carousel-web {
+  margin-top: -90px;
+  z-index: -9;
+}
+
+.carousel-inner {
+  margin-top: 20px;
+}
+
+.carousel-inner img {
+  height: 500px;
+}
+
+.carousel-inner .mobile-carousel h1 {
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.carousel-inner .mobile-carousel .btn-vacation {
+  background-color: #ee9621;
+  color: white;
+}
+
+.carousel-inner .mobile-carousel .btn-vacation:hover {
+  background-color: #ff8b00;
+}
+
+.pic-title img {
+  max-height: 500px;
+}
+
+.pic-title .pic-caption {
+  height: 270px;
+  background-color: #F6F7FB;
+}
+
+.pic-title .pic-caption h1 {
+  font-weight: 600;
+  color: #05668D;
+  font-size: 40px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.pic-title .pic-caption p {
+  font-size: 30px;
+}
+
+.statistik {
+  margin-top: 45px;
+}
+
+.statistik h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #05668D;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.statistik p {
+  font-size: 18px;
+}
+
+.statistik .card-statistic {
+  width: 150px;
+  height: 150px;
+  padding: 10px 5px;
+  -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.statistik .card-statistic h3 {
+  font-size: 60px;
+  color: #05668D;
+}
+
+.statistik .card-statistic p {
+  color: #05668D;
+}
+
+.statistik .mobile-card-statistic {
+  height: 100px;
+  padding: 2px 4px;
+  -webkit-box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.statistik .mobile-card-statistic h3 {
+  font-size: 50px;
+  color: #05668D;
+}
+
+.statistik .mobile-card-statistic p {
+  color: #05668D;
+}
+
+.categories {
+  margin-top: 50px;
+}
+
+.categories h4 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #05668D;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.categories p {
+  font-size: 18px;
+}
+
+.categories img {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.categories img:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  text-decoration: none;
+}
+
+.section-wisata {
+  background-color: #F6F7FB;
+  min-height: 300px;
+  margin-top: 70px;
+  margin-bottom: -150px;
+}
+
+.section-wisata .section-wisata-heading {
+  margin-top: 20px;
+}
+
+.section-wisata .section-wisata-heading h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #05668D;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.section-wisata .section-wisata-heading p {
+  font-size: 18px;
+}
+
+.rekomendasi-wisata .rekomendasi-wisata-konten .card-wisata {
+  min-height: 380px;
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+.rekomendasi-wisata .rekomendasi-wisata-konten .wisata-loc {
+  font-size: 18px;
+  color: #fff;
+}
+
+.rekomendasi-wisata .rekomendasi-wisata-konten .wisata-name {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.rekomendasi-wisata .rekomendasi-wisata-konten .wisata-button .btn-wisata-details {
+  background-color: #ee9621;
+  color: #fff;
+}
+
+.rekomendasi-wisata .rekomendasi-wisata-konten .wisata-button .btn-wisata-details:hover {
+  background-color: #ff8b00;
+  color: white;
+}
+
+.section-indonesia {
+  margin-top: 70px;
+}
+
+.section-indonesia .section-indonesia-heading {
+  margin-top: 20px;
+}
+
+.section-indonesia .section-indonesia-heading h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #05668D;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.section-indonesia .section-indonesia-heading p {
+  font-size: 18px;
+}
+
+.section-review {
+  margin-top: 50px;
+  background-color: #F6F7FB;
+  min-height: 700px;
+}
+
+.section-review h4 {
+  font-size: 30px;
+  margin-top: 40px;
+  font-weight: 600;
+  color: #05668D;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.section-review p {
+  font-size: 18px;
+}
+
+.section-review .card-review {
+  min-height: 400px;
+  margin-top: 45px;
+  background-color: #fff;
+  padding: 25px;
+}
+
+.section-review .name-review {
+  font-size: 26px;
+  color: #05668D;
+  font-weight: 600;
+}
+
+.section-breadcrumb .breadcrumb {
+  background: transparent;
+}
+
+.section-breadcrumb .breadcrumb li a {
+  color: #96875d;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.section-breadcrumb .breadcrumb .active {
+  color: #05668d;
+  font-weight: 600;
+}
+
+.section-content-gallery .breadcrumb {
+  background: transparent;
+}
+
+.section-content-gallery img a {
+  text-decoration: none;
+}
+
+.section-content-gallery .section-gallery {
+  margin-top: 40px;
+  background-color: #F6F7FB;
+}
+
+.section-content-gallery .section-gallery .img-gallery {
+  background-color: white;
+  -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  width: 330px;
+  margin: auto;
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
+}
+
+.section-content-gallery .section-gallery h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #05668D;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.section-content-gallery .img-gallery a:hover {
+  text-decoration: none;
+}
+
+.section-content-gallery .img-gallery a img {
+  padding: 5px;
+}
+
+.section-content-gallery .heading-price {
+  font-size: 27px;
+  color: #05668D;
+}
+
+.section-content-gallery .heading-price span {
+  font-size: 18px;
+}
+
+.section-content-gallery .heading-name-lock h4 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #05668D;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.section-content-gallery .img-features img {
+  max-height: 35px;
+}
+
+.section-content-gallery .capt-pic {
+  color: #05668D;
+}
+
+.section-content-gallery .map-location {
+  margin-top: 40px;
+}
+
+.section-content-gallery .trip-infor .card {
+  background-color: #F6F7FB;
+}
+
+.section-content-gallery .trip-infor .card h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #05668D;
+}
+
+.section-content-gallery .trip-infor .card p {
+  color: #05668D;
+}
+
+.section-content-gallery .trip-infor h5 {
+  font-size: 15px;
+}
+
+.section-content-gallery .pic-members img {
+  max-height: 45px;
+}
+
+.section-content-gallery .pic-members .card {
+  max-width: 45px;
+  max-height: 45px;
+}
+
+.section-content-gallery .btn-booked {
+  background-color: #ee9621;
+}
+
+.section-content-gallery .btn-booked a {
+  color: white;
+  text-decoration: none;
+}
+
+.section-content-gallery .btn-booked:hover {
+  background-color: #ff8b00;
+}
+
+.section-checkout .checkout-content {
+  background-color: #F6F7FB;
+  padding: 10px;
+}
+
+.section-checkout .checkout-content .heading-content-checkout {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #05668D;
+}
+
+.section-checkout .table tr {
+  color: #05668D;
+}
+
+.section-checkout .btn-add {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ee9621;
+  border-radius: 100px;
+  max-width: 200px;
+}
+
+.section-checkout .btn-add a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.section-checkout .btn-add:hover {
+  background-color: #ff8b00;
+}
+
+.btn-add {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ee9621;
+  border-radius: 100px;
+  max-width: 200px;
+}
+
+.btn-add a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-add:hover {
+  background-color: #ff8b00;
+}
+
+.section-pay .content-pay {
+  background-color: #F6F7FB;
+}
+
+.section-pay .content-pay .card-title h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #05668D;
+}
+
+.section-pay .content-pay .parag {
+  color: #05668D;
+  font-weight: 400;
+}
+
+.section-pay .content-pay .parag span {
+  color: #ee9621;
+}
+
+.section-pay .content-pay .unique {
+  color: #ee9621;
+  font-weight: 400;
+}
+
+.section-pay .btn-made-payment {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ee9621;
+  max-width: 700px;
+  color: white;
+}
+
+.section-pay .btn-made-payment a {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.section-pay .btn-made-payment:hover {
+  background-color: #ff8b00;
+  color: white;
+}
+
+.modal-dialog h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #05668D;
+  margin-top: 20px;
+}
+
+.modal-dialog p {
+  color: #05668D;
+}
+
+.section-gallery .bg-gallery {
+  background-color: #05668D;
+}
+
+.section-gallery .bg-gallery h4 {
+  font-weight: 600;
+  font-size: 40px;
+  font-family: 'ArcadeClassic', sans-serif;
+}
+
+.section-gallery .bg-gallery p {
+  font-size: 20px;
+  padding: 15px;
+}
+
+.section-gallery .bg-gallery-yel {
+  background-color: #c6b480;
+  text-align: justify;
+}
+
+.section-gallery .bg-gallery-yel h4 {
+  font-weight: 600;
+  font-size: 40px;
+  font-family: 'ArcadeClassic', sans-serif;
+}
+
+.section-gallery .bg-gallery-yel p {
+  font-size: 20px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.section-gallery img {
+  max-height: 455px;
+  
+}
+
+.section-aboutus {
+  color: #05668D;
+}
+
+.section-aboutus .aboutus-desc {
+  background-color: #F6F7FB;
+  border-radius: 2px;
+}
+
+.section-aboutus h4 {
+  font-weight: 600;
+  font-size: 60px;
+  padding: 5px;
+  font-family: 'Playfair Display', sans-serif;
+}
+
+.section-aboutus p {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.section-footer {
+  margin-top: 50px;
+  background-color: #F6F7FB;
+}
+
+.section-footer a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #05668D;
+}
+
+.section-footer input {
+  border-radius: 0;
+}
+
+.section-footer .btn-send {
+  background-color: #ee9621;
+  border-radius: 0;
+  color: #fff;
+}
+
+.section-footer p {
+  color: #05668D;
+}
+/*# sourceMappingURL=style.css.map */
